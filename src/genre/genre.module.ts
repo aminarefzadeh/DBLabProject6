@@ -3,7 +3,8 @@ import { GenreService } from './genre.service';
 import { GenreController } from './genre.controller';
 
 @Module({
+  imports: [],
+  controllers: [GenreController],
   providers: [GenreService],
-  controllers: [GenreController]
 })
 export class GenreModule {}
