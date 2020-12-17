@@ -1,6 +1,10 @@
 {
-    "type": "sqlite",
-    "database": "./database.sqlite",
+    "type": "postgres",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "username": "project6",
+    "password": "project6",
+    "database": "project6",
     "synchronize": "true",
     "entities": [
         "dist/src/db/**/*.js"
