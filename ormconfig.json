@@ -3,7 +3,7 @@
     "database": "./database.sqlite",
     "synchronize": "true",
     "entities": [
-        "dist/db/**/*.js"
+        "dist/src/db/**/*.js"
     ],
     "cli": {
         "entitiesDir": "src/db"

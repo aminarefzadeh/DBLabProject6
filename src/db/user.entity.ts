@@ -2,7 +2,7 @@ import { Entity, PrimaryGeneratedColumn, Column, BaseEntity, OneToMany } from 't
 import BookEntity from './book.entity';
 
 
-@Entity()
+@Entity('User')
 export default class UserEntity extends BaseEntity {
 
   @PrimaryGeneratedColumn()

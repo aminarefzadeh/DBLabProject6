@@ -2,7 +2,7 @@ import { Entity, PrimaryGeneratedColumn, Column, BaseEntity, ManyToOne, ManyToMa
 import UserEntity from './user.entity';
 import GenreEntity from './genre.entity';
 
-@Entity()
+@Entity('Book')
 export default class BookEntity extends BaseEntity
 {
   @PrimaryGeneratedColumn()
