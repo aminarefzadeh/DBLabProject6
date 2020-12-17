@@ -13,4 +13,18 @@ export default class UserEntity extends BaseEntity {
 
   @OneToMany( type => BookEntity , book => book.user)
   books: BookEntity[];
+
+  @Column({ 
+      type: 'varchar', 
+      nullable: false, 
+      unique: true 
+  }) 
+  username: string;
+
+  @Column({ 
+      type: 'varchar', 
+      nullable: false 
+  })
+  password: string;
+
 }
